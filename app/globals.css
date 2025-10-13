@@ -1,4 +1,3 @@
-@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -23,4 +22,69 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.df{
+  display: flex;
+}
+.fdc{
+  flex-direction: column;
+}
+.cred{
+  color: rgb(177, 43, 43);
+}
+.aic{
+  align-items: center;
+}
+.jcc{
+  justify-content: center;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.p5{
+  padding: 0.5rem;
+}
+.mb5{
+  margin-bottom: 0.5rem;
+}
+.pr5{
+  padding-right: 0.5rem;
+}
+.mr5{
+  margin-right: 0.5rem;
+}
+.br5{
+  border-radius: 0.5rem;
+}
+.onone {
+  outline: none;
+}
+.cursorp {
+  cursor: pointer;
+}
+.shadow{
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+input {
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.5rem;
+}
+button {
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+
+}
+button:hover {
+    background-color: #8b8b8bff;
+}  
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem; 
 }
